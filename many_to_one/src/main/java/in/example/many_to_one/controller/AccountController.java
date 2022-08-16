@@ -58,5 +58,6 @@ public class AccountController {
     public List<Account> findByBranchName(@RequestParam String name) {
         System.err.println("name : " + name);
         return aService.findByBranchName(name);
+
     }
 }
